@@ -1,0 +1,25 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.messageList {
+    margin: 15px;
+}
+
+.nameTextBox {
+    margin-right: 15px;
+}
+
+.messageTextBox {
+    width: 70% !important;
+    margin-right: 15px;
+}
+
+.sayButton {
+    flaot: right;
+}

@@ -1,1 +1,9 @@
 generator
+bin
+obj
+packages
+node_modules
+build
+paket.exe
+app.js
+client.js
