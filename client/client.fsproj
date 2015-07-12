@@ -56,13 +56,9 @@
   </Target>
   -->
   <ItemGroup>
-    <Compile Include="Helpers.fs" />
     <Compile Include="PostalBindings.fs" />
     <Compile Include="MaterialUIBindings.fs" />
-    <Compile Include="Message.fs" />
-    <Compile Include="MessageList.fs" />
-    <Compile Include="MessageForm.fs" />
-    <Compile Include="Chat.fs" />
+    <Compile Include="Helpers.fs" />
     <Compile Include="App.fs" />
     <Compile Include="main.fs" />
   </ItemGroup>

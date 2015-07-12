@@ -1,6 +1,3 @@
-
-
-
 namespace FunScript.TypeScript.Mui
 type Mixins = interface end
 type Utils = interface end
@@ -13,10 +10,8 @@ namespace FunScript.TypeScript
 open FunScript
 open FunScript.TypeScript
 open FunScript.TypeScript.React
-open RethinkDB.Demo.Client.Helpers
-
-
-
+//open Client.Helpers
+ 
 [<AutoOpen>]
 module Extensions =
 

@@ -1,4 +1,4 @@
-﻿namespace RethinkDB.Demo.Client
+﻿namespace Client
 
 open System.IO
 open FunScript
@@ -6,7 +6,7 @@ open FunScript
 module Generator =
     [<EntryPoint>]
     let main argv =
-        let code = Compiler.compileWithoutReturn(<@@ RethinkDB.Demo.Client.App.app() @@>)
+        let code = Compiler.compileWithoutReturn(<@@ App.app() @@>)
         let code' = "var React = require('react');\n" +
                     "window.postal = require('postal');\n" +
                     code
